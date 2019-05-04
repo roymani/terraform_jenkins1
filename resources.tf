@@ -8,4 +8,5 @@ module "instanceModule" {
 	# key_pair_name			="${module.networkModule.ec2keyName}"
 	# security_group_ids 		= ["${module.securityGroupModule.sg_22}", "${module.securityGroupModule.sg_80}"]
 	environment_tag 		= "${var.environment_tag}"
+
 }
